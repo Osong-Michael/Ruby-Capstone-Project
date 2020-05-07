@@ -1,18 +1,16 @@
 class LoadFile
   attr_accessor :file, :file_content
 
-  def initialize
+  def initialize(file)
     @file = file
-    @file_content = file_content
-
-    file_content = get_content(file)
+    @file_content = get_content(@file)
   end
 
   def get_content(file)
-    contents = ''
-    File.open(file, 'r') { |strings| contents = strings.readlines.map(&:chomp) }
-    scanned_content = contents.collect { |string| scanned = StringScanner.new(string) }
-  
+    file_content = ''
+    File.open(file, 'r') { |strings| file_content = strings.readlines.map(&:chomp) }
+    scanned_content = file_content.collect { |string| StringScanner.new(string) }
+
     scanned_content
   end
 end
