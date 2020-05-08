@@ -4,7 +4,9 @@ h1 {
   margin-top: 10px;
 }
 
-h2 {height:100px ;   }
+h2 {
+  height:100px;
+}
 
 p {
 
@@ -14,13 +16,13 @@ p {
 
 }
 
-p.smallcaps {
+p.smallcaps,h3 {
 
   font-variant: small-caps;
 
 }
 
-.close {
+.close,h3,h4 {
 
   color: gray;
   text-transform: uppercase;
