@@ -42,6 +42,8 @@ The errors this linter checks for are errors like the following below:
 * Good Code
  `.blue, p {height: 100px}`
 
+## Screenshot of code output
+![screenshot](test.png)
 
 
 ## Author
