@@ -22,25 +22,25 @@ To get a local copy up and running follow these simple example steps.
 
 # Instructions
 
-- To check for errors in your css file run the code `rubybin/main.rb + path to css file you want to check`
+- To check for errors in your css file run the code `ruby bin/main.rb + path to css file you want to check`
 # How it works
-The linter scans through the css file and returns an error with the line number of where that error occurered. **This linter checks for only line spacing errors**
+The linter scans through the css file and returns an error with the line number of where that error occurered. **This linter checks for only line spacing errors**.
 The errors this linter checks for are errors like the following below:
 
 * Bad Code
-- `.blue{color: blue}` this will result in an error because the linter is expecting a space after the selector `.blue`, so it should look like this...
+ `.blue{color: blue}` this will result in an error because the linter is expecting a space after the selector `.blue`, so it should look like this...
 * Good Code
-- `.blue {color: blue}`
+ `.blue {color: blue}`
 
 * Bad Code
-- `.blue {color:blue}` this will result in an error because the linter is expecting a space after the attribute `color:`, so it should look like this...
+ `.blue {color:blue}` this will result in an error because the linter is expecting a space after the attribute `color:`, so it should look like this...
 * Good Code
-- `.blue {color: blue}`
+ `.blue {color: blue}`
 
 * Bad Code
-- `.blue,p {height: 100px}` this will result in an error because the linter is expecting a space after the selector `.blue` before the next selector `p` so it should look like this...
+ `.blue,p {height: 100px}` this will result in an error because the linter is expecting a space after the selector `.blue` before the next selector `p` so it should look like this...
 * Good Code
-- `.blue, p {height: 100px}`
+ `.blue, p {height: 100px}`
 
 
 
@@ -59,7 +59,7 @@ Feel free to check the [Issues page](https://github.com/OA7/Ruby-Capstone-Projec
 ## Acknowledgments
 - Hat tip to <a href="https://microverse.org/">Microverse</a>
 - My stand-up team members for helping me out with ideas on how to go about this project
-- [Manezeu Patricia](https://github.com/patriciachrysy) for taking time out to walk me through the processes required to come up with m own linter
+- [Manezeu Patricia](https://github.com/patriciachrysy) for taking time out to walk me through the processes required to come up with my own linter
 
 # Show your support
 Give a ⭐️ if you like this project!
