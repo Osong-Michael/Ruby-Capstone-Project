@@ -43,7 +43,7 @@ The errors this linter checks for are errors like the following below:
  `.blue, p {height: 100px}`
 
 ## Screenshot of code output
-![screenshot](test.png)
+![screenshot](test_pic.png)
 
 ## Screenshot of rspec output
 ![screenshot](rspec.png)
