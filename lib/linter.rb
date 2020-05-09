@@ -10,8 +10,6 @@ module Linter
     end
   end
 
-  private
-
   def line_spacing_before(line, str, char)
     str.reset
     new_str = str.scan_until(Regexp.new(char))
@@ -19,7 +17,7 @@ module Linter
       new_str = StringScanner.new(new_str.reverse)
       new_str.skip(Regexp.new(char))
       new_str.scan(/\s+/)
-      puts "#{ line}: x Expected single space before \"#{char}\"".yellow if new_str.matched != ' '
+      puts "#{line}: x Expected single space before \"#{char}\"" if new_str.matched != ' '
       new_str = str.scan_until(Regexp.new(char))
     end
   end
@@ -29,7 +27,7 @@ module Linter
     str.scan_until(Regexp.new(char))
     while str.matched?
       str.scan(/\s+/)
-      puts "#{line}: x Expected single space after \"#{char}\"".yellow if str.matched != ' '
+      puts "#{line}: x Expected single space after \"#{char}\"" if str.matched != ' '
       str.scan_until(Regexp.new(char))
     end
   end

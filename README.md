@@ -45,6 +45,8 @@ The errors this linter checks for are errors like the following below:
 ## Screenshot of code output
 ![screenshot](test.png)
 
+## Screenshot of rspec output
+![screenshot](rspec.png)
 
 ## Author
 
