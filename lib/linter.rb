@@ -9,6 +9,8 @@ module Linter
       line_spacing_after(new_line, ele, ':')
     end
   end
+  
+  private
 
   def line_spacing_before(line, str, char)
     str.reset

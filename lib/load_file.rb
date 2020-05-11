@@ -1,5 +1,5 @@
 class LoadFile
-  attr_accessor :file, :file_content
+  attr_reader :file, :file_content
 
   def initialize(file)
     @file = file
