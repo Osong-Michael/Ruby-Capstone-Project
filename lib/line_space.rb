@@ -1,6 +1,6 @@
 require 'strscan'
 
-module Linter
+class LineSpace
   def check_line_spacing(file_content)
     file_content.each_with_index do |ele, index|
       new_line = index + 1
@@ -9,8 +9,6 @@ module Linter
       line_spacing_after(new_line, ele, ':')
     end
   end
-  
-  private
 
   def line_spacing_before(line, str, char)
     str.reset
