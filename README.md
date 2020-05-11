@@ -1,6 +1,5 @@
 # Ruby-Capstone-Project
-The aim of this project is putting the student in a real life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product.
-For my own project I was asked to build a linter with Ruby and I decided to build a linter for CSS files that checks for line spacing errors in your code.
+The aim of this project is putting the student in a real-life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product. For my project, I was asked to build a linter with Ruby and I decided to build a linter for CSS files that checks for line spacing errors in your code.
 
 # Built With
 - RUBY
