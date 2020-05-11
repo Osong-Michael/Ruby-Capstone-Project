@@ -32,6 +32,14 @@ RSpec.describe LineSpace do
     end
   end
 
+  describe "#line_spacing_before \';\'" do
+    it 'Returns an error for unexpected space before semi-colon(;) ' do
+      expect do
+        space_check.line_spacing_before(8, new_file.file_content[7], ';')
+      end.to output("8: x Unexpected space before \";\"\n").to_stdout
+    end
+  end
+
   describe '#indentation_error?' do
     it 'Returns an error message for wrong indentation' do
       expect do
