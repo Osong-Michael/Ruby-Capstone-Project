@@ -1,6 +1,5 @@
 # Ruby-Capstone-Project
-The aim of this project is putting the student in a real life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product.
-For my own project I was asked to build a linter with Ruby and I decided to build a linter for CSS files that checks for line spacing errors in your code.
+The aim of this project is putting the student in a real-life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product. For my project, I was asked to build a linter with Ruby and I decided to build a linter for CSS files that checks for line spacing errors in your code.
 
 # Built With
 - RUBY
@@ -24,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 - To check for errors in your css file run the code `ruby bin/main.rb + path to css file you want to check`
 # How it works
-The linter scans through the css file and returns an error with the line number of where that error occurered. **This linter checks for only line spacing errors**.
+The linter scans through the css file and returns an error with the line number of where that error occurered. **This linter checks for line spacing errors and indentation errors**.
 The errors this linter checks for are errors like the following below:
 
 * Bad Code

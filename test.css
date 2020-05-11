@@ -1,11 +1,11 @@
 body {color: red;}
 
 h1 {
-  margin-top: 10px;
+margin-top: 10px ;
 }
 
 h2 {
-  height: 100px;
+height:100px
 }
 
 p {
@@ -32,19 +32,19 @@ p.smallcaps,h3 {
   .anchor {
   
   color: green;
-  text-transform: lowercase;
+  text-transform: lowercase ;
   
   }
   
   #purple{
   
   color: purple;
-  text-transform: capitalize;
+  text-transform: capitalize ; 
   
   }
   
   #teal {
   
-  color: teal;
+  color: teal ;
   
   }
